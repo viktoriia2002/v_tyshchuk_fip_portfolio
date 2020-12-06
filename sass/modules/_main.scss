@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+background-color:#272727 ;
+font-family: $main-font;
+height: 100%;
+}
+
+.hidden{
+    display: none;
+}
+
+.mainHead{
+    height: 78px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    #logo{
+        margin-left: 20px;
+        padding-top: 13px;
+        width: 55px;
+        height: 66px;
+       opacity:0.9;
+       position: fixed;
+       
+       
+       .logo2{
+           width: 200px;
+           cursor: pointer;
+           margin-top: 4px;
+           transition: all 0.8s;
+           position: relative;
+           
+         }
+    }
+ 
+ }
+ 
+ 
+  
+ 
+  .content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+ 
+ .banner{
+     
+     background-image: url(../images/bckgrnd.png);
+     height: 790px ;
+     background-repeat: no-repeat;
+     
+     
+     .tagline{
+         margin-top: 30px;
+         text-align: center;
+         font-size: 15px;
+         color: #FEC84A;
+         font-style: oblique;
+         padding-top: 35px;
+     }
+     .i{
+         text-align: center;
+         color: #FEC84A ;
+         font-weight: bold;
+         font-style: oblique;
+         font-size: 70px;
+         padding: 10px;
+         margin-top: 40px;
+     }
+     .name{
+         text-align: center;
+         color: #FEC84A ;
+         font-weight: bold;
+         font-style: oblique;
+         font-size: 70px;
+         padding: 10px;
+     }
+     .last_name{
+         text-align: center;
+         color: #FEC84A ;
+         font-weight: bold;
+         font-style: oblique;
+         font-size: 70px;
+     }
+      .title{
+         white-space: nowrap; 
+         margin: 0 auto;
+         overflow: hidden;  
+       
+         animation: 
+         animated-text 2s steps(30,end) 0.3s  none;
+      
+         @keyframes animated-text{
+             from{width: 0;}
+            
+         }
+     }
+     .title2{
+         margin: 0 auto;
+         overflow: hidden;  
+         white-space: nowrap; 
+       
+         animation: 
+         animated-text 2s steps(30,end)   none;
+      
+         @keyframes animated-text{
+             from{width: 0;}
+             to{width: 600px;}
+         }
+     }
+     .title3{
+         margin: 0 auto;
+         overflow: hidden;  
+         white-space: nowrap; 
+       
+         animation: 
+         animated-text 2s steps(30,end) 1s  none;
+      
+         @keyframes animated-text{
+             from{width: 0;}
+             to{width: 600px;}
+         }
+     }
+     .title4{
+         margin: 0 auto;
+         overflow: hidden;  
+         white-space: nowrap; 
+       
+         animation: 
+         animated-text 2s steps(30,end) 2.6s 1 normal none;
+      
+         @keyframes animated-text{
+             from{width: 0;}
+             to{width: 600px;}
+         }
+     }
+     .title5{
+         margin: 0 auto;
+         overflow: hidden;  
+         white-space: nowrap; 
+       
+         animation: 
+         animated-text 2s steps(30,end) 2.9s 1 normal none;
+      
+         @keyframes animated-text{
+             from{width: 0;}
+             to{width: 600px;}
+         }
+     }
+     .title6{
+         margin: 0 auto;
+         overflow: hidden;  
+         white-space: nowrap; 
+       
+         animation: 
+         animated-text 2s steps(30,end) 3.4s 1 normal none;
+      
+         @keyframes animated-text{
+             from{width: 0;}
+             to{width: 600px;}
+         }
+     }
+     .title7{
+         margin: 0 auto;
+         overflow: hidden;  
+         white-space: nowrap; 
+       
+        animation: 
+         animated-text 2s steps(30,end) 3.5s 1 normal none;
+      
+         @keyframes animated-text{
+             from{width: 0;}
+             to{width: 600px;}
+         }
+        }
+    
+    
+    
+     
+     .junior{
+         text-align: center;
+         color: #FEC84A ;
+         font-weight: bold;
+         font-style: oblique;
+         font-size: 24px;
+         margin-top: 40px;
+         
+     }
+     .md{
+        text-align: center;
+        color: #FEC84A ;
+        font-weight: bold;
+        font-style: oblique;
+        font-size: 24px;
+        margin-top: 10px;
+        
+    }
+    .and{
+        text-align: center;
+        color: #FEC84A ;
+        font-weight: bold;
+        font-style: oblique;
+        font-size: 24px;
+        margin-top: 10px;
+        
+    }
+    .gd{
+        text-align: center;
+        color: #FEC84A ;
+        font-weight: bold;
+        font-style: oblique;
+        font-size: 24px;
+        margin-top: 10px;
+        
+    }
+ }
+ .shoutme{
+     background-color: #F7F7F7;
+     opacity: 0.6;
+     height: 150px;
+     
+     text-align: center;
+ 
+         p{
+         font-size: 22px;
+         text-decoration: none;
+         font-weight: bold;
+         opacity: 0.9;
+         padding-top: 60px;
+            a{
+                text-decoration: none;
+                color: $main-color;
+            }
+     }
+ }
+ .yellowbar{
+    height: 110px;
+    background-color: #FEC84A;
+    text-align: center;
+    .social-menu{
+        text-align: center;
+        padding-top: 20px;;
+    .list{
+        list-style: none;
+        display: inline;
+        text-decoration: none;
+        padding-right: 10px;
+        a { 
+            text-decoration: none;
+     }
+    }
+    img{
+        width: 27px;
+        padding-top: 5px;
+        padding-left: 5px;
+        
+        }
+}
+     .copyright{
+         width: 170px;
+         padding-top: 12px;
+     }    
+    
+ }
+
+//  about page
+
